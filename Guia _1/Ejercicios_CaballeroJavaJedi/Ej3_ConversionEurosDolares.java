@@ -17,6 +17,6 @@ public class Ej3_ConversionEurosDolares {
 
         dolares = cantidadEuros * TASACAMBIO;
         System.out.println("Euro$" + cantidadEuros + " = U$S" + dolares);
-
+        scanner.close();
     }
 }

@@ -17,6 +17,6 @@ public class Ej6_ConversionBitconiDolar {
 
         dolares = cantidadBitcoin * TASACAMBIO;
         System.out.println( "$" + cantidadBitcoin + " = U$S" + dolares);
-
+        scanner.close();
     }
 }

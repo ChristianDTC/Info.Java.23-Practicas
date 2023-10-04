@@ -19,6 +19,6 @@ public class Ej4_ConversionLibrasEsterlinasDolares {
 
         dolares = cantidadLibrasEsterlinas * TASACAMBIO;
         System.out.println(libra + "$" + cantidadLibrasEsterlinas + " = U$S" + dolares);
-
+        scanner.close();
     }
 }

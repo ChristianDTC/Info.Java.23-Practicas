@@ -17,6 +17,6 @@ public class Ej5_ConversionPesosEuros {
 
         euros = cantidadPesos * TASACAMBIO;
         System.out.println("$" + cantidadPesos + " = Euros$" + euros);
-
+        scanner.close();
     }
 }

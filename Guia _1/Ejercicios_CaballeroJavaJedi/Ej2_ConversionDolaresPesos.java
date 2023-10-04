@@ -18,6 +18,6 @@ public class Ej2_ConversionDolaresPesos {
 
         pesos = cantidadDolares * TASACAMBIO;
         System.out.println("U$S" + cantidadDolares + " = $" + pesos);
-
+        scanner.close();
     }
 }
