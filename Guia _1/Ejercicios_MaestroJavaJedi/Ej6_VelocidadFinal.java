@@ -24,5 +24,6 @@ public class Ej6_VelocidadFinal {
         System.out.printf("v_f = %s + %s * %s" , velocidadInicial, aceleracion, tiempo);
         System.out.println("");
         System.out.println("v_f = " + velocidadFinal);
+        scanner.close();
     }
 }

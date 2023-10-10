@@ -24,6 +24,7 @@ public class Ej7_CalculoFuerzaCentripeta {
         System.out.printf("F_c = %s * %s^2 / %s" ,masa,velocidadAngular,radioTrayectoria);
         System.out.println("");
         System.out.println("F_c = " + furezaCentripeta);
+        scanner.close();
 
     }
 }

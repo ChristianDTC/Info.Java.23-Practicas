@@ -20,5 +20,6 @@ public class Ej5_CalculoEnergiaCinetica {
         System.out.printf("E = (1/2) * %s * %s^2" , masa, velocidad);
         System.out.println("");
         System.out.println("E = " + energiaCinetica);
+        scanner.close();
     }
 }
